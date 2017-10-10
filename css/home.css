@@ -1,3 +1,12 @@
+@import 'https://fonts.googleapis.com/css?family=Catamaran:300,400,500';
+@import "./bulma";
+
+body{
+    background-color: #FCFCFC;
+    font-family:  'Catamaran', 'Roboto', 'Helvetica Neue', 'Raleway',  Arial, sans-serif;
+    font-weight: 400;
+}
+
 .leha-header > h1 > span{
     color: #FF6A66;
 }
