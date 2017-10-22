@@ -13,3 +13,7 @@ body{
 .card-content{
     margin-top: 20px;
 }
+
+.navbar.is-dark{
+    background-color: #3e4f5f;
+}

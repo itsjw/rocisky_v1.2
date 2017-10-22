@@ -1,6 +1,24 @@
-.has-bg-img {
-    background: url('../images/projects/mobilesale/fluig-data-mobile-sale-1280-681.jpg');
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
+/*.has-bg-img {*/
+    /*background: url('../images/projects/mobilesale/fluig-data-mobile-sale-1280-681.jpg');*/
+    /*background-position: center center;*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+/*}*/
+
+body{
+    background-color: #fafeff;
 }
+
+.navbar.is-dark{
+    background-color: #3e4f5f;
+}
+
+.content figure{
+    margin: 0;
+}
+
+.content h2{
+    font-size: 24px;
+    font-weight: 400;
+}
+
