@@ -9,9 +9,25 @@ body{
     background-color: #fafeff;
 }
 
+
 .navbar.is-dark{
     background-color: #3e4f5f;
 }
+
+.navbar.is-dark > .navbar-brand > .navbar-item img{
+    margin-top: -7px;
+    max-height: 16px;
+    padding: 0 4px;
+}
+
+.navbar.is-dark > .navbar-brand > a.navbar-item:hover{
+    background-color: #28323E;
+}
+
+.navbar.is-dark > .navbar-menu > .navbar-end > a:hover{
+    background-color: #28323E;
+}
+
 
 .content figure{
     margin: 0;
@@ -22,3 +38,14 @@ body{
     font-weight: 400;
 }
 
+section > .container{
+    padding: 20px 0;
+}
+
+section.hero.leha-totvs{
+    background-color: #009ec3;
+}
+
+span.tag.is-dark{
+    background-color: #3f5060;
+}

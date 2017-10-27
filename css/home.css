@@ -2,31 +2,44 @@ body{
     background-color: #fafbfc;
 }
 
-.leha-header > h1.leha-info{
-    font-size: 24px;
-    font-weight: 400;
-    padding-bottom: 30px;
-}
-.leha-header > h1{
-    font-weight: 300;
-}
-
-.leha-header > h1 > span{
-    color: #de4339;
-}
-
-.navbar-item img{
-    margin-top: -4px;
-    max-height: 16px;
-    padding: 0 4px;
-}
-
 .navbar.is-dark{
     background-color: #3e4f5f;
 }
 
+.navbar.is-dark > .navbar-brand > .navbar-item img{
+    margin-top: -7px;
+    max-height: 16px;
+    padding: 0 4px;
+}
+
+.navbar.is-dark > .navbar-brand > a.navbar-item:hover{
+    background-color: #28323E;
+}
+
 .navbar.is-dark > .navbar-menu > .navbar-end > a:hover{
-    background-color: #009ec3;
+    background-color: #28323E;
+}
+
+.leha-header > h1.leha-info{
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    color: #3E4F60;
+}
+.leha-header > .leha-message > h1{
+    font-weight: 400;
+    line-height: 48px;
+    color: #3E4F60;
+}
+
+.leha-header > .leha-message > h1 > span{
+    color: #de4339;
+}
+
+.leha-header > .leha-message{
+    border-top: solid 2px #D9E2EB;
+    border-bottom: solid 2px #D9E2EB;
+    padding: 40px 0 ;
 }
 
 .hero.is-info{
@@ -35,7 +48,8 @@ body{
 }
 
 .hero.leha-top{
-    background-color: #F8FCFE;
+    /*background-color: #EFF8F7;*/
+    background-color: #F6FAFD;
 }
 
 section.leha-totvs{
